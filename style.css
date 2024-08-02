@@ -25,10 +25,11 @@
     
 }
 
-#finalmessage{
+.finalmessage{
     display:flex;
     justify-content: center;
 }
+
 /* #buttonid{
     display:inline-block;
     justify-content: center;
