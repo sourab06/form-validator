@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+#startmessage{
+    display:flex;
+    justify-content: center;
+    
+}
+.form-container{
+    display:flex;
+    justify-content: center;
+     align-items:center;
+    /* border:2px solid black; */
+    
+    /* padding:5px; */
+}
+#form{
+    border:2px solid black;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#finalmessage{
+    display:flex;
+    justify-content: center;
+}
+/* #buttonid{
+    display:inline-block;
+    justify-content: center;
+} */
+/* #button-container{
+    display:flex inline-block;
+    justify-content: center;
+    align-items:center;
+    width: 300px;
+    height:22px;
+} */
+/* #name , #phonenumber ,#email ,#website, #pwd ,#pwd2 {
+    justify-content: center;
+} */
+/* #namelabel , #phonenumberlabel ,#emaillabel ,#websitelabel, #pwdlabel ,#pwd2label {
+    justify-content: flex-end;
+}  */
